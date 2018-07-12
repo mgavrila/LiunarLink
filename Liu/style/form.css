@@ -1,0 +1,76 @@
+@font-face {
+    font-family: akkurat;
+    src: url('style/akkurat.woff');
+}
+
+body {
+   font-family: akkurat;
+  }
+  
+h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 20px;
+	
+}
+
+p{
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	font-family: serif;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px solid #BD7E09;
+  padding: 2rem;
+  border-radius: 45px; 
+  clear: right;
+
+  }
+ label {
+    display: block;
+    padding: 1rem 0 .25rem 0;
+    text-transform: uppercase;
+    font-size: 14px; }
+ input{
+    display: block;
+    width: 100%;
+    border: 2px solid #2980B9;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+	}
+input:focus{
+		outline: none;
+	}
+	
+textarea {	
+	display: block;
+    width: 100%;
+    border: 2px solid #2980B9;
+    font-size: 15px;
+    border-radius: 5px;
+	resize: none;
+	height: 200px;
+	}
+
+#sendBtn {
+  border: 0;
+  background: #BD7E09;
+  padding: .5rem;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s background ease; 
+  margin: auto;
+  margin-top: 15px;
+  
+  }
+  #sendBtn:hover {
+    background: #3498DB; }
+	
+
+/*# sourceMappingURL=form.css.map */

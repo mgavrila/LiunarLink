@@ -1,0 +1,339 @@
+@font-face {
+    font-family: akkurat;
+    src: url('style/akkurat.woff');
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: akkurat;
+  color: white;
+  background-color: #1A4959;
+}
+
+
+header {
+  background: #111;
+  color: #16C4BC;
+}
+
+
+.headline {
+  position: relative;
+  height: 220px;
+  color: #fff; 
+  background: url('crypto.png') no-repeat center center;
+  background-size: cover;
+}
+.headline:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.logo {
+	width:100%;
+}
+
+.footer-headline {
+  position: relative;
+  height: 111px;
+  color: #fff;
+  background: url('crypto.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 29px 0px;
+   
+}
+
+.footer-inner p {
+	 color: #fff;
+	 width: 100%;
+	 font-size: 14px;
+	 text-decoration:none;
+}
+
+
+.footer-inner a {
+	 font-size: 22px;
+	 color: #5A19E6;
+	
+}
+
+.footer-headline a:hover {
+  color: #9C9FA1;
+  transition: 0.5s;
+  
+}
+
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-45%) translateY(-40%);
+  -webkit-animation: fade-in 0.75s 0.25s ease-in forwards;
+          animation: fade-in 0.75s 0.25s ease-in forwards;
+}
+
+.index-inner h2 {
+
+  font-size: 20px;
+  line-height: 20px;
+ 
+}
+
+.index-inner h5 {
+
+  font-size: 14px;
+  line-height: 25px;
+  font-style: cursive;
+  font-weight: 150px;
+  font-variant: normal;
+  
+}
+
+.column {
+  
+	float: left;
+    width: 100%;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.service-title{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	color: #BD7E09;
+	margin-left: 5px;
+	width: 100%;
+	
+}
+
+.info{
+	margin-left:0.5em;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+}
+nav.scrolled {
+  background: rgba(17, 17, 17, 0.9);
+}
+nav ul {
+  float: left;
+  list-style: none;
+  padding: 25px;
+  margin: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  display: inline-block;
+ 
+}
+
+nav a{
+font-size: 0.9em;
+  color: #fff;
+  transition: .5s;
+  text-decoration: none;
+  margin: 5px 0 0 20px;
+  display: block;
+  float: left;
+  z-index: -1;
+	
+	
+}
+
+nav a:hover {
+  color: #9C9FA1;
+  transition: 0.5s;
+}
+
+
+
+section {
+  width: 100%;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 100%;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  box-sizing: border-box;
+}
+
+section h2 {
+	text-align: center;	
+}
+
+section p {
+	text-align: left;
+	text-indent: 65px;
+}
+
+.request {
+	text-align: center;
+	text-indent: 0px;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.toggle {
+	width: 100%;
+	padding: 10px 20px;
+	text-align: left;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+@media (max-width: 768px)
+{
+	
+
+.toggle{
+	display: block;
+	}
+
+nav ul {
+	width: 100%;
+	display: none;
+
+}
+
+nav ul li {
+
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+	box-sizing: border-box;
+	
+}
+
+nav ul li a{
+
+	clear:both;
+	
+}
+
+
+
+.active{
+	display: block;
+}
+}
+
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+
+}
+
+#thanks {
+	color: green;
+	font-size: 20px;
+}
+
+#customers {
+    font-family: akkurat;
+    border-collapse: collapse;
+    width: 50%;
+	height: auto;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 15px;
+	
+	
+
+}
+
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 5px;
+	
+}
+
+
+#customers tr:hover {background-color: #BD7E09;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3A8C14;
+    color: white;
+}
+
+#tg {
+	color: #3EB6DE;
+	font-size: 20px;
+}
+
+.port {
+	box-sizing: border-box;
+	
+}
+
+.port-column {
+    float: left;
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.port-row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
