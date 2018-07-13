@@ -1,23 +1,17 @@
-
-
-@font-face {
-    font-family: akkurat;
-    src: url('style/akkurat.woff');
-}
-
-
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: akkurat;
+  font-family: 'Montserrat';
   color: white;
   background-color: #1A4959;
+  font-size: 15px;
   
 }
 
 header {
   background: #111;
   color: #16C4BC;
+  
 }
 
 
@@ -27,6 +21,7 @@ header {
   color: #fff; 
   background: url('crypto.png') no-repeat center center;
   background-size: cover;
+  
 }
 .headline:after {
   position: absolute;
@@ -55,6 +50,7 @@ header {
 	 width: 100%;
 	 font-size: 14px;
 	 text-decoration:none;
+	 font-family: 'Montserrat';
 }
 
 
@@ -87,6 +83,7 @@ header {
 
   font-size: 30px;
   line-height: 20px;
+  font-family: 'Montserrat';
  
 }
 
@@ -97,6 +94,7 @@ header {
   font-style: cursive;
   font-weight: 150;
   font-variant: normal;
+  font-family: 'Montserrat';
   
 }
 
@@ -110,6 +108,7 @@ header {
 	margin-top: 5%;
 	flex-direction: column;
 	text-align: center;
+	
 
 }
 
@@ -125,6 +124,7 @@ header {
 	text-align: center;
 	margin-top: 5%;
 	color: #BD7E09;
+	
 	
 }
 
@@ -177,6 +177,7 @@ nav a:hover {
 section {
   width: 60%;
   margin: 25px auto;
+  font-family: 'Montserrat'; 
   padding: 20px;
   max-width: 100%;
   font-size: 1.2em;
@@ -185,7 +186,8 @@ section {
 }
 
 section h2 {
-	text-align: center;	
+	text-align: center;
+	font-family: 'Montserrat';
 }
 
 section p {
@@ -224,6 +226,7 @@ section p {
 	color: #fff;
 	font-size: 30px;
 	display: none;
+	
 }
 
 @media (max-width: 768px)
@@ -265,10 +268,11 @@ border-bottom:1px solid #313030;
 #thanks {
 	color: green;
 	font-size: 20px;
+	font-family: 'Montserrat';
 }
 
 #customers {
-    font-family: akkurat;
+    font-family: 'Montserrat';
     border-collapse: collapse;
     width: 70%;
 	height: auto;

@@ -1,10 +1,5 @@
-@font-face {
-    font-family: akkurat;
-    src: url('style/akkurat.woff');
-}
-
 body {
-   font-family: akkurat;
+   font-family: 'Montserrat';
   }
   
 h2{
@@ -55,6 +50,8 @@ textarea {
     border-radius: 5px;
 	resize: none;
 	height: 200px;
+	font-family: 'Montserrat';
+	
 	}
 
 #sendBtn {
@@ -67,6 +64,7 @@ textarea {
   transition: .3s background ease; 
   margin: auto;
   margin-top: 15px;
+  font-family: 'Montserrat';
   
   }
   #sendBtn:hover {

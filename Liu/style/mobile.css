@@ -1,14 +1,10 @@
-@font-face {
-    font-family: akkurat;
-    src: url('style/akkurat.woff');
-}
-
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: akkurat;
+  font-family: 'Montserrat';
   color: white;
   background-color: #1A4959;
+  font-size: 15px;
 }
 
 
@@ -56,6 +52,7 @@ header {
 	 width: 100%;
 	 font-size: 14px;
 	 text-decoration:none;
+	 font-family: 'Montserrat';
 }
 
 
@@ -88,6 +85,7 @@ header {
 
   font-size: 20px;
   line-height: 20px;
+  font-family: 'Montserrat';
  
 }
 
@@ -98,6 +96,7 @@ header {
   font-style: cursive;
   font-weight: 150px;
   font-variant: normal;
+  font-family: 'Montserrat';
   
 }
 
@@ -238,6 +237,7 @@ section p {
 nav ul {
 	width: 100%;
 	display: none;
+	
 
 }
 
@@ -277,10 +277,11 @@ border-bottom:1px solid #313030;
 #thanks {
 	color: green;
 	font-size: 20px;
+	 font-family: 'Montserrat';
 }
 
 #customers {
-    font-family: akkurat;
+    font-family: 'Montserrat';
     border-collapse: collapse;
     width: 50%;
 	height: auto;

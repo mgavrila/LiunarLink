@@ -18,7 +18,6 @@
 <header>
   <div class="headline">
     <div class="inner">
-	  <p class="us"></p>
       <div class="logo">
 		<img src="img/liunar.png" alt="logo" />
 	  </div>  

@@ -14,16 +14,11 @@
 	<link rel="stylesheet" type="text/css" href="style/form.css"/>
 	<link rel="icon" href="img/liu_fav.ico" type="image/x-icon" >
 	<link rel="shortcut icon" href="img/liu_fav.ico" type="image/x-icon" >
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
 	<meta property="og:site_name" content="LiunarLink" />
 	<meta property="og:title" content="LiunarLink">
-	<meta property="og:type" content="website">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="javascript/script.js"></script>
-	<script src="javascript/script2.js"></script>
-	<script src="javascript/scroll.js"></script>
-	<script src="javascript/style.js"></script>
-	
+	<meta property="og:type" content="website">	
 </head>
 	
 
@@ -208,6 +203,11 @@
 </section>
 </div>
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="javascript/script.js"></script>
+	<script src="javascript/script2.js"></script>
+	<script src="javascript/scroll.js"></script>
+	<script src="javascript/style.js"></script>
 	<?php include("footer.php")?>
 </body>
 

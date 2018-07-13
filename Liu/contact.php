@@ -12,16 +12,10 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 	<link rel="stylesheet" type="text/css" href="style/form.css"/>
 	<link rel="icon" type="image/x-icon" href="img/liu_fav.ico">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<meta property="og:site_name" content="LiunarLink" />
 	<meta property="og:title" content="LiunarLink">
 	<meta property="og:type" content="website">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="javascript/script.js"></script>
-	<script src="javascript/script2.js"></script>
-	<script src="javascript/style.js"></script>
-	<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-	<script src="javascript/thanks_text.js"></script>
 	
 	</script>
 </head>
@@ -72,9 +66,9 @@
     $subject = $_POST['title'];
     $subject2 = "Liunarlink - Thank you for contacting us";
     $message =  $name . " " . " wrote the following: " . "\n\n" . "Company: ". $_POST['company'] . "\n"
-				."My contact e-mail: " . $_POST['mail'] . "\n" . "Details: " . $_POST['message'];
-    $message2 = "Here is a copy of your submission: " . "\n\n" . "Company: ". $_POST['company'] . "\n"
-				."My contact e-mail address: " . $_POST['mail'] . "\n" . "Details: " . $_POST['message'];
+				."E-mail: " . $_POST['mail'] . "\n" . "Details: " . $_POST['message'];
+    $message2 = "Hello " . $_POST['name'] . "," . "\n" . "Here is a copy of your submission: " . "\n\n" . "Company: ". $_POST['company'] . "\n"
+				."E-mail: " . $_POST['mail'] . "\n" . "Details: " . $_POST['message'] . "\n\n\n\n\n" . "Best regards," ."\n" ."Liunarlink";
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
@@ -86,7 +80,12 @@
 ?>
 
 	
-<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="javascript/script.js"></script>
+	<script src="javascript/script2.js"></script>
+	<script src="javascript/style.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="javascript/thanks_text.js"></script>
 <?php include("footer.php")?>
 	</body>
 </html>
