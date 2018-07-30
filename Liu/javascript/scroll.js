@@ -16,7 +16,7 @@ $('a.spreadsheet').click(function() {
 }),
 	$('a.portfolio').click(function() {
 	$('html, body').animate({
-	scrollTop: $("td.table").offset().top
+	scrollTop: $("h2.portfolio").offset().top
   }, 1000)
 })
 

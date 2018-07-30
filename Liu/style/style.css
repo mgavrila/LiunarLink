@@ -19,7 +19,7 @@ header {
   position: relative;
   height: 230px;
   color: #fff; 
-  background: url('crypto.png') no-repeat center center;
+  background: url('liunarb.png') no-repeat center center;
   background-size: cover;
   
 }
@@ -36,11 +36,9 @@ header {
 .footer-headline {
   position: relative;
   height: 111px;
-  color: #fff;
-  background: url('crypto.png') no-repeat center center;
+  color: #fff; 
+  background: url('liunarb.png') no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   padding: 29px 0px;
    
 }
@@ -51,12 +49,14 @@ header {
 	 font-size: 14px;
 	 text-decoration:none;
 	 font-family: 'Montserrat';
+	 font-style: italic;
+	 text-align: center;
 }
 
 
 .footer-inner a {
 	 font-size: 22px;
-	 color: #5A19E6;
+	 color: #BD7E09;
 	
 }
 
@@ -101,7 +101,7 @@ header {
 .column {
     float: left;
     width: 50%;
-	font-size: 2.8em;
+	font-size: 2.3em;
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -120,7 +120,7 @@ header {
 }
 
 .service-title{
-	font-size: 28px;
+	font-size: 25px;
 	text-align: center;
 	margin-top: 5%;
 	color: #BD7E09;
@@ -336,3 +336,68 @@ border-bottom:1px solid #313030;
 
 }
 
+.tooltip {
+    position: relative;  
+	display: inline-block;
+	font-size: 15px;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip i:hover {
+      color: #9C9FA1;
+	  transition: 0.5s;
+}
+
+.back {
+	display: inline-block;
+	color: #BD7E09;
+}
+
+.not {
+	display: inline-block;
+	color: red;
+	
+}
+
+.heat {
+	display: inline-block;
+	color: #FF0000;
+	
+}
+
+.hot {
+	display: inline-block;
+	color: #FFAF03;
+}
+
+.warm {
+	display: inline-block;
+	color: #F5F105;
+}
+
+.cold {
+	display: inline-block;
+	color: #056CFC;
+}
+
+.ice {
+	display: inline-block;
+	color: #00FCF8;
+}
