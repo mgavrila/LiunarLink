@@ -1,7 +1,7 @@
 <footer>
   <div class="footer-headline">
     <div class="footer-inner">
-  <p>Copyright © LiunarLink 2018
+  <p>Copyright © Liunarlink 2018
   <br>We enjoy doing our research and sharing it with others. 
   <br>Feel free to contact us on:
   <br>
